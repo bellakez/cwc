@@ -16,7 +16,28 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	    <!--link til stylesheet-->
+	<link rel="stylesheet" href="style.css">
 	<?php wp_head(); ?>
+<!--menu ny -->
+<input id="toggle" type="checkbox"></input>
+
+<label for="toggle" class="hamburger">
+  <div class="top-bun"></div>
+  <div class="meat"></div>
+  <div class="bottom-bun"></div>
+</label>
+
+<div class="nav">
+  <div class="nav-wrapper">
+    <nav>
+      <a href="#">HOME</a><br>
+      <a href="#">ABOUT</a><br>
+      <a href="#">WORK</a><br>
+      <a href="#">SERVICES</a>
+    </nav>
+  </div>
+</div>
 </head>
 
 <body <?php body_class(); ?>>

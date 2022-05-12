@@ -31,7 +31,6 @@ get_header();
 
     <body>
         
-        
     </body>
 </html>
 <?php
