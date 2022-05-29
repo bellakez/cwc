@@ -16,7 +16,9 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
-	    <!--link til stylesheet-->
+	<!--fonte-->
+	<link rel="stylesheet" href="https://use.typekit.net/czz8qbt.css">
+	<!--link til stylesheet-->
 	<link rel="stylesheet" href="style.css">
 	<?php wp_head(); ?>
 <!--menu ny -->
@@ -31,10 +33,6 @@
 <div class="nav">
   <div class="nav-wrapper">
     <nav>
-      <a href="#">HOME</a><br>
-      <a href="#">ABOUT</a><br>
-      <a href="#">WORK</a><br>
-      <a href="#">SERVICES</a>
     </nav>
   </div>
 </div>
