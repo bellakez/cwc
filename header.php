@@ -22,20 +22,7 @@
 	<link rel="stylesheet" href="style.css">
 	<?php wp_head(); ?>
 <!--menu ny -->
-<input id="toggle" type="checkbox"></input>
 
-<label for="toggle" class="hamburger">
-  <div class="top-bun"></div>
-  <div class="meat"></div>
-  <div class="bottom-bun"></div>
-</label>
-
-<div class="nav">
-  <div class="nav-wrapper">
-    <nav>
-    </nav>
-  </div>
-</div>
 </head>
 
 <body <?php body_class(); ?>>
@@ -66,6 +53,7 @@
 					</div><!-- .entry-header -->
 					<?php rewind_posts(); ?>
 				</div>
+				
 			<?php endif; ?>
 		</header><!-- #masthead -->
 
