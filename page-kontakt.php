@@ -48,6 +48,7 @@ get_header();
         </div>
         <section class="kontakt_wrapper">
         <section id="kontakt_afsnit1">
+          <div class="textbox">
           <div class="oplysninger">
             <div class="tekst_ramme">
           <h2>Oplysninger</h2>
@@ -61,6 +62,7 @@ get_header();
           <p>43081322</p>
         </div>
         </div>
+      </div>
         <div class="maps">
           <div class="mapouter"><div class="gmap_canvas"><iframe width="300" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=greve&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2piratebay.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:300px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:300px;}</style></div></div>
         </div>
