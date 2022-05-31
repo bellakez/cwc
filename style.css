@@ -36,9 +36,9 @@ h1:not(.site-title)::before,
 h2::before {
   display: none;
 }
-#colophon .site-info {
+/* #colophon .site-info {
   display: none;
-}
+} */
 /*___________________________Fonte - M O B I L___________________________*/
 
 /*___________________________M O B I L___________________________*/
@@ -366,6 +366,41 @@ h2::before {
   /* .main-navigation .main-menu > li.menu-item-has-children {
     display: none;
   } */
+  /*_______________________Footer__________________________*/
+
+  #colophon .site-footer {
+    /* background-color: rgb(237, 238, 233, 0.5); */
+    display: none;
+  }
+
+  /* Styling af footeren*/
+  #colophon .site-info #footer_afsnit {
+    background-color: rgb(237, 238, 233, 0.5);
+    color: #3e3e3e;
+    /* display: flex;
+    justify-content: space-evenly; */
+    gap: 5px;
+    padding: 5px;
+  }
+  /* Justering på footerens boks*/
+  #colophon .site-info {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* For at fjerne WP tekst*/
+  a.site-name {
+    display: none;
+  }
+
+  /* For at fjerne WP tekst*/
+  a.imprint {
+    display: none;
+  }
+
+  .site-info #text {
+    display: none;
+  }
 }
 
 /*___________________________W E B___________________________*/
@@ -698,6 +733,46 @@ h2::before {
     padding: 0;
   }
   .site-title {
+    display: none;
+  }
+  /*_______________________Footer__________________________*/
+  /* footer #colophon .site-footer {
+    background-color: rgb(237, 238, 233, 0.5);
+    display: flex;
+    justify-content: center;
+  } */
+
+  #colophon .site-footer {
+    /* background-color: rgb(237, 238, 233, 0.5); */
+    display: none;
+  }
+
+  /* Styling af footeren*/
+  #colophon .site-info #footer_afsnit {
+    background-color: rgb(237, 238, 233, 0.5);
+    color: #3e3e3e;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 50px;
+  }
+  /* Justering på footerens boks*/
+  #colophon .site-info {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* For at fjerne WP tekst*/
+  a.site-name {
+    display: none;
+  }
+
+  /* For at fjerne WP tekst*/
+  a.imprint {
+    display: none;
+  }
+
+  .site-info #text {
     display: none;
   }
 }

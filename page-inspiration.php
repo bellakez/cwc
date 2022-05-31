@@ -148,6 +148,46 @@ get_header();
 </section>
 
       </main>
+
+      <!--F O O T E R _____ S T A R T-->
+           <footer id="colophon" class="site-footer">
+        <div class="site-info">
+
+				<section id="footer_afsnit">
+          <!--kontaktoplysninger-->
+          <div class="footer_box">
+            <div class="footer_kontakt">
+          <h2>Oplysninger</h2>
+          <h3>Adresse</h3>
+          <p>2950 Greve, Danmark</p>
+          <h3>Telefon</h3>
+          <p>28270048</p>
+          <h3>CVR</h3>
+          <p>43081322</p>
+          <h3>E-mail</h3>
+          <p>43081322</p>
+            </div>
+
+          </div>
+          <!--footer logo-->
+          <div class="footer_box">
+            <div class="footer_logo">
+            <h2>Charlotte Wahl Coaching</h2>
+            </div>
+          </div>
+          <!--medie ikoner-->
+          <div class="footer_box">
+             <div class="footer_ikoner">
+              <h2>Følg med på</h2>
+            </div>
+          </div>
+        </div>
+        </section>
+				
+
+      </footer>
+
+      <!--F O O T E R _____ S L U T-->
       <script>
 
 let slideIndex = 1;
