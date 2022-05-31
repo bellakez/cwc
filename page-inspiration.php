@@ -58,22 +58,53 @@ get_header();
  			<input type="radio" name="slider" id="s4">
   			<input type="radio" name="slider" id="s5">
 
-			<label for="s1" id="slide1"><img src="<?php echo get_stylesheet_directory_uri()?>/illustrationer/globalt.jpg" alt=""></label>
-  			<label for="s2" id="slide2"><img src="<?php echo get_stylesheet_directory_uri()?>/illustrationer/baere.jpg" alt=""></label>
- 			<label for="s3" id="slide3"><img src="<?php echo get_stylesheet_directory_uri()?>/illustrationer/verden.jpg" alt=""></label>
-  			<label for="s4" id="slide4"><img src="<?php echo get_stylesheet_directory_uri()?>/illustrationer/globalt1.jpg" alt=""></label>
-  			<label for="s5" id="slide5"><img src="<?php echo get_stylesheet_directory_uri()?>/illustrationer/baere1.jpg" alt=""></label>
+			<label for="s1" id="slide1"><img src="<?php echo get_stylesheet_directory_uri()?>/billeder/post/coach2.webp" alt="coach"></label>
+  			<label for="s2" id="slide2"><img src="<?php echo get_stylesheet_directory_uri()?>/billeder/post/fordi1.webp" alt="forandring"></label>
+ 			<label for="s3" id="slide3"><img src="<?php echo get_stylesheet_directory_uri()?>/billeder/post/skema1.webp" alt="tid"></label>
+  			<label for="s4" id="slide4"><img src="<?php echo get_stylesheet_directory_uri()?>/billeder/post/coach3.webp" alt="coach"></label>
+  			<label for="s5" id="slide5"><img src="<?php echo get_stylesheet_directory_uri()?>/billeder/post/fordi2.webp" alt="quote"></label>
     <!-- ________________________Section2 - Q U O T E S___________________________ -->
 		</section>
         </section>
         <h2 class="center_h2">Quotes</h2>
         <section id="inspiration_afsnit2">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <div>
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote1.webp" alt="quotes">
+        </div>
+        <div>
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote2.webp" alt="quotes">
+        </div>
+        <div>
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote3.webp" alt="quotes">
+        </div>
+        <div>
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote4.webp" alt="quotes">
+        </div>
+        <div>
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote5.webp" alt="quotes">
+        </div>
+        <div>
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote6.webp" alt="quotes"> 
+        </div>
+        <div>
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote7.webp" alt="quotes">
+        </div>
+        <div>
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote8.webp" alt="quotes">
+        </div>
+        <div>
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote9.webp" alt="quotes">
+        </div>
+        <div>
+         <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote10.webp" alt="quotes">
+        </div>
+        <div>
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote11.webp" alt="quotes">
+        </div>
+        <div>
+         <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote12.webp" alt="quotes">
+        </div>
+
         </section>
       </section>
    <!-- ________________________Section3 - T I P S ___________________________ --> 
