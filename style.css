@@ -81,6 +81,15 @@ h2::before {
     margin: 5px;
     padding-left: 10px;
   }
+  /*____________IKON STYLING_________*/
+  .ikon_container {
+    display: flex;
+    justify-content: center;
+  }
+  .ikon_wrapper {
+    height: 60px;
+    width: 60px;
+  }
 
   /*_____________K_O_N_T_A_K_T Siden__________*/
   #kontakt_afsnit1 {
@@ -447,6 +456,15 @@ h2::before {
     font-style: normal;
     padding-left: 20px;
   }
+  /*____________IKON STYLING_________*/
+  .ikon_container {
+    display: flex;
+    justify-content: center;
+  }
+  .ikon_wrapper {
+    height: 100px;
+    width: 100px;
+  }
   /*___________________________KONTAKT siden___________________________*/
   .kontakt_wrapper {
     display: flex;
@@ -768,19 +786,19 @@ h2::before {
     display: none;
   }
   footer h2 {
-      font-size: 1rem;
-      padding: 2px;
-      padding-bottom: 10px;
-      margin: 0;
+    font-size: 1rem;
+    padding: 2px;
+    padding-bottom: 10px;
+    margin: 0;
   }
   footer h3 {
-      font-size: 0.6rem;
-      padding: 2px;
-      margin: 0;
+    font-size: 0.6rem;
+    padding: 2px;
+    margin: 0;
   }
   footer p {
-      font-size: 0.6rem;
-      padding: 2px;
+    font-size: 0.6rem;
+    padding: 2px;
   }
 
   /* Styling af footeren*/

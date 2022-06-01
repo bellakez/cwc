@@ -31,21 +31,17 @@ get_header();
 
     <body>
       <main>
-        <section id="afsnit1">
-          <template id="afnit1_template">
-            <img class="splashvideo"src="splashvideo" alt="splashvideo">
-          </template>
+        <section id="online_afsnit1">
           <div class="entry-title">
           <h1>Online Forløb</h1>
           </div>
+           <!--________IKON________-->
+          <div class="ikon_container">
+            <div class="ikon_wrapper">
+              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/online.svg" alt="online forløb">
+            </div>
+          </div>
         </section>
-        <section class="afsnit1_container">
-        <h2> </h2>
-
-        </section>
-        <div class="entry-title">
-          <h2></h2>
-        </div>
       </main>
 
       <!--F O O T E R _____ S T A R T-->

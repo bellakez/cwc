@@ -43,9 +43,12 @@ get_header();
         <div class="entry-title">
           <h1> Kontakt</h1>
           </div>
-          <div class="ikon">
-            <img src="kontakt-ikon" alt="kontakt-ikon">
-        </div>
+         <!--________IKON________-->
+          <div class="ikon_container">
+            <div class="ikon_wrapper">
+              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/kontakt.svg" alt="kontakt">
+            </div>
+          </div>
         <section class="kontakt_wrapper">
         <section id="kontakt_afsnit1">
           <div class="textbox">

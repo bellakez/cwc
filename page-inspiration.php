@@ -43,9 +43,12 @@ get_header();
         <div class="entry-title">
           <h1> Inspiration</h1>
           </div>
-          <div class="ikon">
-            <img src="inspiration-ikon" alt="inspiration-ikon">
-        </div>
+          <!--________IKON________-->
+          <div class="ikon_container">
+            <div class="ikon_wrapper">
+              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/inspiration.svg" alt="inspiration">
+            </div>
+          </div>
         <section class="inspiration_wrapper">
        <!-- ________________________section 1 - INSTA SLIDE___________________________ -->
         <section id="inspiration_afsnit1">
