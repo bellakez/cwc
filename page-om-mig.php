@@ -31,21 +31,7 @@ get_header();
 
     <body>
       <main>
-        <section id="afsnit1">
-          <template id="afnit1_template">
-            <img class="splashvideo"src="splashvideo" alt="splashvideo">
-          </template>
-          <div class="entry-title">
-          <h1>Om mig</h1>
-          </div>
-        </section>
-        <section class="afsnit1_container">
-        
 
-        </section>
-        <div class="entry-title">
-          <h2>Om Charlotte</h2>
-        </div>
 
       </main>
 

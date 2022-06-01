@@ -42,6 +42,31 @@ get_header();
             </div>
           </div>
         </section>
+
+                <section id="ommig_afsnit1">
+          <div class="ommig_textbox">
+            <h2>Generelt om coaching</h2>
+            <p></p>
+          </div>
+          <div class="ommig_billede">
+            <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/charlotte/" alt="om coaching">
+          </div>
+
+        </section>
+        <div class="pil_container">
+          <div class="pil">
+            <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/pil_ned.svg" alt="pil">
+          </div>
+        </div>
+        <section id="ommig_afsnit2">
+          <div class="ommig_textbox">
+            <h2>Generelt om coaching</h2>
+            <p></p>
+          </div>
+          <div class="ommig_billede">
+            <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/charlotte/logo_sort_hvid.svg" alt="om coaching">
+          </div>
+        </section>
       </main>
 
       <!--F O O T E R _____ S T A R T-->

@@ -31,21 +31,6 @@ get_header();
 
     <body>
       <main>
-        <section id="afsnit1">
-          <template id="afnit1_template">
-            <img class="splashvideo"src="splashvideo" alt="splashvideo">
-          </template>
-          <div class="entry-title">
-          <h1> Charlotte Wahl Coach</h1>
-          </div>
-        </section>
-        <section class="afsnit1_container">
-        <h2></h2>
-
-        </section>
-        <div class="entry-title">
-          <h2></h2>
-        </div>
       </main>
 
       <!--F O O T E R _____ S T A R T-->
