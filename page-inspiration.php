@@ -60,9 +60,9 @@ get_header();
 
 			<label for="s1" id="slide1"><img src="<?php echo get_stylesheet_directory_uri()?>/billeder/post/coach2.webp" alt="coach"></label>
   			<label for="s2" id="slide2"><img src="<?php echo get_stylesheet_directory_uri()?>/billeder/post/fordi1.webp" alt="forandring"></label>
- 			<label for="s3" id="slide3"><img src="<?php echo get_stylesheet_directory_uri()?>/billeder/post/skema1.webp" alt="tid"></label>
-  			<label for="s4" id="slide4"><img src="<?php echo get_stylesheet_directory_uri()?>/billeder/post/coach3.webp" alt="coach"></label>
-  			<label for="s5" id="slide5"><img src="<?php echo get_stylesheet_directory_uri()?>/billeder/post/fordi2.webp" alt="quote"></label>
+ 			<label for="s3" id="slide3"><img src="<?php echo get_stylesheet_directory_uri()?>/billeder/post/coach3.webp" alt="tid"></label>
+  			<label for="s4" id="slide4"><img src="<?php echo get_stylesheet_directory_uri()?>/billeder/post/skema1.webp" alt="coach"></label>
+  			<label for="s5" id="slide5"><img src="<?php echo get_stylesheet_directory_uri()?>/billeder/post/coach1.webp" alt="quote"></label>
     <!-- ________________________Section2 - Q U O T E S___________________________ -->
 		</section>
         </section>
@@ -87,7 +87,7 @@ get_header();
           <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote6.webp" alt="quotes"> 
         </div>
         <div>
-          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote7.webp" alt="quotes">
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote12.webp" alt="quotes">
         </div>
         <div>
           <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote8.webp" alt="quotes">
@@ -102,7 +102,7 @@ get_header();
           <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote11.webp" alt="quotes">
         </div>
         <div>
-         <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote12.webp" alt="quotes">
+         <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote7.webp" alt="quotes">
         </div>
 
         </section>
