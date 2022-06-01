@@ -252,19 +252,24 @@ h2::before {
 
   /* Caption text */
   .text {
+    text-shadow: #000000 1px 0 10px;
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
-    width: 100%;
+    width: 60%;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     font-family: nunito, sans-serif;
     font-weight: 300;
     font-style: normal;
     margin: 5px;
     padding-bottom: 40px;
+  }
+  .text_container {
+      display: flex;
+      justify-content: center;
   }
 
   /* Number text (1/3 etc) */
@@ -628,19 +633,25 @@ h2::before {
 
   /* Caption text */
   .text {
+    text-shadow: #000000 1px 0 10px;
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
-    width: 100%;
+    width: 60%;
     text-align: center;
     font-size: 1.1rem;
     font-family: nunito, sans-serif;
     font-weight: 300;
     font-style: normal;
     margin: 5px;
-    padding-bottom: 80px;
+    padding-bottom: 170px;
+  }
+
+    .text_container {
+      display: flex;
+      justify-content: center;
   }
 
   /* Number text (1/3 etc) */
@@ -650,6 +661,10 @@ h2::before {
     padding: 8px 12px;
     position: absolute;
     top: 0;
+  }
+  
+  .slideshow-container {
+      opacity: 0.9;
   }
 
   /* The dots/bullets/indicators */
