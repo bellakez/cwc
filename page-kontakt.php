@@ -73,8 +73,8 @@ get_header();
       </section>
       </main>
 
-<!--F O O T E R _____ S T A R T-->
-      <footer id="colophon" class="site-footer">
+      <!--F O O T E R _____ S T A R T-->
+           <footer id="colophon" class="site-footer">
         <div class="site-info">
 
 				<section id="footer_afsnit">
@@ -89,25 +89,40 @@ get_header();
           <h3>CVR</h3>
           <p>43081322</p>
           <h3>E-mail</h3>
-          <p>43081322</p>
+          <p>kontakt@charlottewahl.dk</p>
             </div>
 
           </div>
           <!--footer logo-->
           <div class="footer_box">
             <div class="footer_logo">
-            <h2>Charlotte Wahl Coaching</h2>
+            <div class="logo_container">
+              <div class="footer_logo">
+                <img src="<?php echo get_stylesheet_directory_uri()?>/logo/logo_sort_hvid.svg" alt="logo">
+              </div>
+            </div>
             </div>
           </div>
           <!--medie ikoner-->
           <div class="footer_box">
              <div class="footer_ikoner">
               <h2>Følg med på</h2>
-            </div>
+                    <div class="ikon_container">
+                      <div class="footer_ikon">
+                     <a href="https://www.instagram.com/charlottewahl.dk/"><div><img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/instagram.svg" alt="instagram"></div></a>
+                      </div>
+                      <div class="footer_ikon">
+                     <a href="https://dk.linkedin.com/in/charlotte-wahl-7a82086?trk=people-guest_people_search-card"><div><img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/linkedin.svg" alt="linkedin"></div></a>
+                      </div>
+                      <div class="footer_ikon">
+                     <a href="https://www.facebook.com/charlotte.bock"><div><img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/facebook.svg" alt="facebook"></div></a>
+                    </div>
+                 </div>
           </div>
         </div>
+
         </section>
-				
+	</div>			
 
       </footer>
  <!--F O O T E R _____ S L U T-->
