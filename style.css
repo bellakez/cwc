@@ -29,7 +29,7 @@ iframe {
   max-width: 100%;
 }
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 h1:not(.site-title)::before {
   display: none;
@@ -56,6 +56,7 @@ h2::before {
     text-align: center;
     margin: 5px;
     padding: 10px;
+    margin-top: 90px;
   }
   h2 {
     font-size: 1.2rem;
@@ -117,23 +118,41 @@ h2::before {
     display: flex;
     justify-content: center;
   }
-   /*_______________________O M ___  C O A C H I N G__________________________*/
+  /*_______________________O M ___  C O A C H I N G__________________________*/
   .pil_container {
     display: flex;
     justify-content: center;
-}
+  }
   .pil {
     width: 60px;
     height: 60px;
-}
-#omcoaching_artikel1 {
+  }
+  #omcoaching_artikel1 {
     padding: 10px;
     margin: 10px;
-}
-#omcoaching_artikel2 {
+  }
+  #omcoaching_artikel2 {
     padding: 10px;
     margin: 10px;
-}
+  }
+  #omcoaching_slider .slideshow-container a {
+    color: #3e3e3e;
+  }
+  #omcoaching_slider .slideshow-container .text {
+    color: #3e3e3e;
+    text-shadow: none;
+    padding-bottom: 10px;
+    font-size: 0.6rem;
+    font-weight: 300;
+  }
+  #omcoaching_slider h1 {
+    padding: 10px;
+  }
+  #omcoaching_skema {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
 
   /*_________________I N S P I R A T I O N _______________*/
   #inspiration_afsnit1 h2 {
@@ -414,6 +433,10 @@ h2::before {
   }
   .site-title {
     display: none;
+  }
+
+  #rmp-container-48 .rmp-menu-item{
+    padding: 15px;
   }
   /*3 ekstra prikker fjernes*/
   /* .main-navigation .main-menu > li.menu-item-has-children {
@@ -865,28 +888,40 @@ h2::before {
   .pil_container {
     display: flex;
     justify-content: center;
-}
+  }
   .pil {
     width: 90px;
     height: 90px;
-}
-#omcoaching_artikel1 {
+  }
+  #omcoaching_artikel1 {
     padding: 40px;
     margin: 40px;
-}
-#omcoaching_artikel2 {
+  }
+  #omcoaching_artikel2 {
     padding: 40px;
     margin: 40px;
-}
-#omcoaching_slider .slideshow-container .text {
+  }
+  #omcoaching_slider .slideshow-container .text {
     color: #3e3e3e;
     text-shadow: none;
-    padding-bottom: 170px;
+    padding-bottom: 70px;
     font-size: 0.8rem;
-}
-#omcoaching_slider .slideshow-container a {
+  }
+  #omcoaching_slider .slideshow-container a {
     color: #3e3e3e;
-}
+  }
+  #omcoaching_skema {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  .skema_billede {
+    max-width: 50%;
+  }
+  #omcoaching_slider h1 {
+    padding: 40px;
+    margin-top: 20px;
+  }
   /*_______________________Footer__________________________*/
   /* footer #colophon .site-footer {
     background-color: rgb(237, 238, 233, 0.5);
@@ -985,7 +1020,5 @@ h2::before {
   gap: 30px;
 }
 .omcoaching_billede {
-    padding: 5px;
+  padding: 5px;
 }
-
-

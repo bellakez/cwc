@@ -60,7 +60,7 @@ get_header();
           </div>
         </div>
         <article id="omcoaching_artikel2">
-        <h2>Generelt om coaching</h2>
+        <h2>Jeg tilbyder</h2>
         <section id="omcoaching_afsnit3">
           <div class="omcoaching_billede">
             <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/objekt_billeder/bog.webp" alt="om coaching">
@@ -73,7 +73,14 @@ get_header();
         </section>
         </article>
 
+        <div id="omcoaching_skema">
+          <div class="skema_billede">
+            <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/objekt_billeder/skema_billede.svg" alt="skema">
+          </div>
+        </div>
+
 <section id="omcoaching_slider">
+  <h1>Klienter siger</h1>
          <!-- Slideshow container -->
 <div class="slideshow-container">
 
@@ -82,8 +89,10 @@ get_header();
     <div class="numbertext">1 / 6</div>
     <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/wave_background.svg" alt="vand" style="width:100%">
     <div class="text_container">
-    <div class="text">Prioriter at have en morgen praksis. Stå gerne lidt tidligere op, tidligere end resten af familien, så du starter dagen stille og roligt med egen tid 
-    </div>
+    <div class="text">"Jeg har haft fornøjelsen af et mini-forløb hos dig, hvor vi på trods af få sessioner alligevel har været vidt omkring. Du er nærværende og kompetent og lykkes i at få mig til at føle mig tryg på kort tid. " 
+        <br>
+    <p>- Sanne</p>
+  </div>
   </div>
   </div>
 
@@ -91,8 +100,10 @@ get_header();
     <div class="numbertext">2 / 6</div>
     <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/wave_background.svg" alt="vand" style="width:100%">
     <div class="text_container">
-    <div class="text">Det første du indtager er vigtigt. Bryg en dejlig kop the eller lav et glas frisk vand med citron. Det er godt for kroppen og kan virke udrensende
-    </div>
+    <div class="text">"Jeg har de sidste 3 år prøvet div. Former for alternativ terapi og terapeutisk behandling, men coaching var noget som passede mig bedst og som ramte plet og indenfor kort tid har hjulpet mig mere end noget andet før." 
+    <br>
+    <p>- Nathalia</p> 
+  </div>
   </div>
   </div>
 
@@ -100,8 +111,10 @@ get_header();
     <div class="numbertext">3 / 6</div>
     <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/wave_background.svg" alt="vand" style="width:100%">
     <div class="text_container">
-    <div class="text">Kickstart kroppen. Lav en let krop øvelse, yogaøvelser nakke og skuldre øvelser eller en morgenmeditation 
-    </div>
+    <div class="text">"Jeg kunne allerede mærke fra starten at jeg kunne være tryg ved charlotte . Charlotte udstråler en der har styr på sit arbejde, man kan mærke det noget der virkelig interessere hende."
+    <br>
+    <p>- Patricia</p>   
+  </div>
   </div>
 </div>
 
@@ -109,7 +122,9 @@ get_header();
     <div class="numbertext">4 / 6</div>
     <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/wave_background.svg" alt="vand" style="width:100%">
     <div class="text_container">
-    <div class="text">Planlæg din dag. Afsæt minimum 15 min. til at planlægge din dag. Planlægningen skal udover dine gøremål, arbejdsopgaver også gerne indeholde tid til dig selv 
+    <div class="text">"Tak Charlotte for at være en vigtig brik med vores samtaler særligt arbejdet med værdier. Din måde at formidle, fik mig til at lytte. Du er skarp, troværdig og tillidsfuld."
+    <br>
+    <p>- Ditte</p>   
     </div>
   </div>
 </div>
@@ -118,20 +133,12 @@ get_header();
     <div class="numbertext">5 / 6</div>
     <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/wave_background.svg" alt="vand" style="width:100%">
     <div class="text_container">
-    <div class="text">Afslut dagen godt. Luk ned for online medier, TV og andet i god tid. Hav en aften rutine, yoga øvelse, hudpleje, stille musik og meditation
-    </div>
+    <div class="text">"Mine værdier var for mig lidt uklare. Jeg ved godt, hvad jeg står for og hvad der gør mig glad, men helt præcist at sætte ord på mine værdier, gjorde virkelig en stor forskel." 
+   <br>
+    <p>- Mette</p> 
+  </div>
   </div>
 </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">6 / 6</div>
-    <img src="<?php echo get_stylesheet_directory_uri()?>//ikoner/wave_background.svg" alt="vand" style="width:100%">
-    <div class="text_container">
-    <div class="text">Selvomsorg og refleksion. Sørg for at der i din planlægning er afsat tid til dig: motion, frisk luft, meditation, det er også vigtigt at der afsættes refleksionstid
-    </div>
-</div>
-</div>
-
 
 
   <!-- Next and previous buttons -->
