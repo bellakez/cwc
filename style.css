@@ -99,14 +99,16 @@ h2::before {
     display: inline-block;
     cursor: pointer;
     color: #d67308;
-    font-size: 0.7rem;
-    font-family: "nunito", sans-serif;
-    font-weight: 400;
-    padding: 10px 40px;
+    font-size: 0.6rem;
+    font-family: "beloved sans", sans-serif;
+    font-weight: 700;
+    height: 50px;
+    width: 130px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #ffffff;
     border-radius: 0;
     margin: 10px;
+    padding: 0;
   }
   #filtrering button {
     background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
@@ -126,22 +128,15 @@ h2::before {
     width: 60px;
   }
   /*_____________P_E_R_S_O_N_L_I_G Siden__________*/
-  .ydelse_ramme {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+  article {
     background-color: #f3f4ef;
     margin: 30px;
-  }
-  .textbox {
-    grid-column: 2/3;
   }
   .textbox .overskrift_h3 {
     font-size: 0.7rem;
     font-weight: 400;
     padding-top: 10px;
-  }
-  .billedebox {
-    grid-column: 1/2;
   }
   .forloeb_text {
     display: flex;
@@ -611,6 +606,84 @@ h2::before {
     font-style: normal;
     padding-left: 20px;
   }
+  /*____________FILTRERING KNAP STYLING_________*/
+  #filtrering {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  #filtrering button {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border: 2px solid #c75a12;
+    display: inline-block;
+    cursor: pointer;
+    color: #d67308;
+    font-size: 0.7rem;
+    font-family: "beloved sans", sans-serif;
+    font-weight: 700;
+    /* padding: 15px 60px; */
+    height: 60px;
+    width: 200px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    border-radius: 0;
+    margin: 10px;
+    padding: 0;
+  }
+  #filtrering button {
+    background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color: #f6f6f6;
+  }
+  #filtrering button:active {
+    position: relative;
+    top: 1px;
+  }
+  #filtrering button:hover {
+    background-color: #d67308;
+    border: 2px solid #c75a12;
+    color: #ffffff;
+  }
+  /*____________GENEREL KNAP STYLING_________*/
+  .knap_ramme {
+    display: flex;
+    justify-content: center;
+  }
+  .knap_ramme button {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border: 2px solid #c75a12;
+    display: inline-block;
+    cursor: pointer;
+    color: #d67308;
+    font-size: 0.7rem;
+    font-family: "beloved sans", sans-serif;
+    font-weight: 700;
+    /* padding: 15px 60px; */
+    height: 40px;
+    width: 150px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    border-radius: 0;
+    margin: 10px;
+    padding: 0;
+  }
+  .knap_ramme button {
+    background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color: #f6f6f6;
+  }
+  .knap_ramme button:active {
+    position: relative;
+    top: 1px;
+  }
+  .knap_ramme button:hover {
+    background-color: #d67308;
+    border: 2px solid #c75a12;
+    color: #ffffff;
+  }
+
   /*____________IKON STYLING_________*/
   .ikon_container {
     display: flex;
@@ -619,6 +692,31 @@ h2::before {
   .ikon_wrapper {
     height: 100px;
     width: 100px;
+  }
+  /*___________________P_E_R_S_O_N_L_I_G Siden_____________*/
+  article {
+    background-color: #f3f4ef;
+    margin: 30px;
+  }
+  .personlig_container {
+    margin: 60px;
+  }
+
+  .textbox .overskrift_h3 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-top: 10px;
+  }
+  .knap_ramme #kasse_knap button {
+    background-color: #f3f4ef;
+    background: 0;
+  }
+  
+  .forloeb_text {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 70px;
   }
   /*___________________________KONTAKT siden___________________________*/
   .kontakt_wrapper {
@@ -1061,6 +1159,11 @@ h2::before {
 #inspiration_afsnit2 {
   /* padding: 40px;
   margin: 40px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+/*___________PERSONLIG FORLØB_______*/
+.personlig_container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }

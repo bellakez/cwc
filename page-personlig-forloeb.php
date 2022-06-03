@@ -76,8 +76,13 @@ get_header();
 				    <img class="personlig_billede"src="" alt="coaching billede">
 				  </div>
         </div>
+        <div class="knap_ramme">
+          <div id="kasse_knap">
+            <button class="generel_knap">Se mere</button>
+          </div>
+        </div>
 			</article>
-			<h3 class="alle"></h3> <!-- det er til nulstil søgning -->
+			<!-- <h3 class="alle"></h3> det er til nulstil søgning -->
 			</template>
 			<section class="personlig_container">
 

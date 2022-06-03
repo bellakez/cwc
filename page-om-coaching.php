@@ -42,7 +42,7 @@ get_header();
             </div>
           </div>
         </section>
-        <article id="omcoaching_artikel1">
+        <section id="omcoaching_artikel1">
           <h2>Generelt om coaching</h2>
           <section id="omcoaching_afsnit2">
           <div class="omcoaching_textbox">
@@ -53,13 +53,13 @@ get_header();
           </div>
 
         </section>
-      </article>
+      </section>
         <div class="pil_container">
           <div class="pil">
             <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/pil_ned.svg" alt="pil">
           </div>
         </div>
-        <article id="omcoaching_artikel2">
+        <section id="omcoaching_artikel2">
         <h2>Jeg tilbyder</h2>
         <section id="omcoaching_afsnit3">
           <div class="omcoaching_billede">
@@ -71,7 +71,7 @@ get_header();
             <p>Jeg tilbyder støtte indenfor ledelse og stress forbyggelse. Det understøtter jeg ved hjælp af min praksis som leder og min personlig erfaring. Jeg har udarbejdet forskellige skræddersyet produkter  som egner sig til dig, din hverdag og din tid.</p>
           </div>
         </section>
-        </article>
+        </section>
 
         <div id="omcoaching_skema">
           <div class="skema_billede">
