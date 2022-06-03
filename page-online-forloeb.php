@@ -42,8 +42,53 @@ get_header();
             </div>
           </div>
         </section>
-      </main>
+          <!--________Lille forklarende tekst________-->
+          <div class="forloeb_text">
+          <div class="forloeb_box">
+            <h2>Workbook eller Masterclass?</h2>
+            <p>Indenfor online forløb, er der mulighed for at købe en individuel online masterclass,  eller en workbook, som begge er løsninger til dig, der ønsker at skabe mere struktur eller overblik over dit liv. Med en workbook får du de rette værktøjer til selvstændigt, at arbejde mod dine individuelle mål. I masterclassen bliver fokus lagt på dine behov og via online møder sætter vi sammen dagsordenen for din selvudvikling.</p>
+          </div>
+          </div>
 
+
+    <div>
+      <div id="filtrering">
+      <nav id="banner">
+        <!--vi definere alle med klassen valgt, da den ikke er del af io-->
+        <!-- <button data-personlig_cat="alle" class="valgt">Alle personlige forløb</button> -->
+        <button class="filter" data-online_cat="5">Se workbook</button>
+        <button class="filter" data-online_cat="6">Se masterclass</button>
+        
+      </nav>
+      </div>
+    </div>
+      <!--_______FILTERERING - template_______-->
+      <section id="personligt_afsnit2">
+      <template>
+				<article>
+        <div class="ydelse_ramme">
+				  <div class="textbox">
+				    <h2 class="overskrift_h2"></h2>
+				    <p class="kort_beskrivelse"></p>
+            <h3 class="overskrift_h3"></h3>
+				  </div>
+				  <div class="billedebox">
+				    <img class="personlig_billede"src="" alt="coaching billede">
+				  </div>
+        </div>
+        <div class="knap_ramme">
+          <div id="kasse_knap">
+            <button class="generel_knap">Se mere</button>
+          </div>
+        </div>
+			</article>
+			<!-- <h3 class="alle"></h3> det er til nulstil søgning -->
+			</template>
+			<section class="personlig_container">
+
+			</section>
+      </section>
+</main>
       <!--F O O T E R _____ S T A R T-->
            <footer id="colophon" class="site-footer">
         <div class="site-info">
@@ -98,27 +143,69 @@ get_header();
       </footer>
 <!--F O O T E R _____ S L U T-->
       <script>
-        "use strict";
-        let afsnit1;
+"use strict";
+let online_ydelser;
+let categories ;
+let filterOYdelse = "alle";
 
-        //nøgle
-        const dbUrl = "https://bellakezia.dk/kea2/tema9/projekter/wp-json/wp/v2/cwc/";
+//______________________________ ONLINE FILTRERING_________________________________________________________
 
 
-        async function getJson() {
-        const data = await fetch(dbUrl);
-        console.log(afsnit1);
-        visAfsnit1();
-        }
+//nøgle
+const dbUrl = "http://bellakezia.dk/kea2/eksamen/cwc/wp-json/wp/v2/online_ydelse";
+// //url for at få fat i kategorier
+const catUrl = "http://bellakezia.dk/kea2/eksamen/cwc/wp-json/wp/v2/categories";
 
-        function visAfsnit1() {
-	      console.log(afsnit1);
-	      let temp = document.querySelector("template");
-	      let container = document.querySelector(".afsnit1_container")
-	      container.innerHTML = "";
-        klon.querySelector(".splashvideo").src = afsnit1.video.guid;
-        }
 
+async function getJson() {
+const data = await fetch(dbUrl);
+const catdata = await fetch(catUrl);
+online_ydelser = await data.json();
+categories = await catdata.json();
+console.log(visOnline_ydelser);
+visOnline_ydelser();
+addEventListenersToButtons1();
+}
+
+
+function addEventListenersToButtons1() {
+document.querySelectorAll("#filtrering button").forEach(elm =>{
+elm.addEventListener("click", filtrering1);
+console.log("her er vi")
+})
+
+};
+
+function filtrering1 (){
+filterOYdelse = this.dataset.online_cat;
+console.log(filterOYdelse);
+visOnline_ydelser();
+console.log("her er vi2")
+}
+
+function visOnline_ydelser() {
+	console.log(online_ydelser);
+	let temp = document.querySelector("template");
+	let container = document.querySelector(".personlig_container")
+	container.innerHTML = "";
+	online_ydelser.forEach(online_ydelse => {
+		//Vha. if sætningen tager vi fat i kategorien område og vha. && siger vi område OG uddannelsestrin
+		//Med denne kode skal man kun have én funktion til alle kategorier, hvor man siger en kategori og en ny kategori
+		if (filterOYdelse == "alle" || online_ydelse.categories.includes(parseInt(filterOYdelse))){
+		const klon = temp.cloneNode(true).content;
+		klon.querySelector(".overskrift_h2").innerHTML = online_ydelse.overskrift_h2;
+		klon.querySelector(".overskrift_h3").innerHTML = online_ydelse.overskrift_h3;
+		klon.querySelector(".kort_beskrivelse").innerHTML = online_ydelse.kort_beskrivelse;
+		klon.querySelector(".personlig_billede").src = online_ydelse.online_billede.guid;
+		klon.querySelector("article").addEventListener("click", () => {
+		location.href = online_ydelse.link;})
+		container.appendChild(klon);
+		}
+  
+	})
+
+}
+getJson();
 
       </script>
     </body>
