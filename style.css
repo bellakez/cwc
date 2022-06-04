@@ -118,14 +118,71 @@ h2::before {
     position: relative;
     top: 1px;
   }
+  /*____________GENEREL KNAP STYLING_________*/
+  .knap_ramme {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  .knap_ramme button {
+    box-shadow: inset 0px 1px 0px 0px #ffffff;
+    background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    background-color: #ffffff;
+    border: 2px solid #c75a12;
+    display: inline-block;
+    cursor: pointer;
+    color: #d67308;
+    font-size: 0.6rem;
+    font-family: "beloved sans", sans-serif;
+    font-weight: 700;
+    height: 50px;
+    width: 130px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffffff;
+    border-radius: 0;
+    margin: 10px;
+    padding: 0;
+  }
+  .knap_ramme button {
+    background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+    background-color: #f6f6f6;
+  }
+  .knap_ramme button:active {
+    position: relative;
+    top: 1px;
+  }
+  /*KNAP TIL FILTRERINGSBOXE*/
+  .knap_ramme #kasse_knap button {
+    background-color: #f3f4ef;
+  }
   /*____________IKON STYLING_________*/
   .ikon_container {
     display: flex;
     justify-content: center;
   }
   .ikon_wrapper {
-    height: 60px;
-    width: 60px;
+    width: 110px;
+  }
+  /*_____________F_O_R_S_I_D_E_N Siden__________*/
+  /*_____________F_O_R_S_I_D_E_N Siden__________*/
+  .forside_afsnit {
+    margin: 20px;
+  }
+
+  .alle_ikon_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .forside_ikon_wrapper img {
+    width: 80px;
+    height: 80px;
+  }
+   .forside_ikon_wrapper {
+     padding: 20px;
+   }
+  #ikon_hjerte img {
+    width: 50px;
+    height: 50px;
   }
   /*_____________P_E_R_S_O_N_L_I_G Siden__________*/
 
@@ -670,6 +727,10 @@ h2::before {
     margin: 10px;
     padding: 0;
   }
+  .knap_ramme #kasse_knap button {
+    background-color: #f3f4ef;
+  }
+
   .knap_ramme button {
     background: linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
     background-color: #f6f6f6;
@@ -693,6 +754,21 @@ h2::before {
     height: 100px;
     width: 100px;
   }
+  /*_____________F_O_R_S_I_D_E_N Siden__________*/
+  .forside_afsnit {
+    margin: 90px;
+  }
+  .alle_ikon_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .forside_ikon_wrapper img {
+    width: 200px;
+  }
+     .forside_ikon_wrapper {
+     padding: 50px;
+   }
+
   /*___________________P_E_R_S_O_N_L_I_G Siden_____________*/
   article {
     background-color: #f3f4ef;
@@ -711,7 +787,7 @@ h2::before {
     background-color: #f3f4ef;
     background: 0;
   }
-  
+
   .forloeb_text {
     display: flex;
     justify-content: center;
@@ -1155,6 +1231,21 @@ h2::before {
   }
 }
 /*_____________A U T O _ MIN/MAX____________*/
+/*______________FORSIDE________*/
+.forside_afsnit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+.forside_afsnit h2 {
+  margin: 0;
+  padding: 0;
+}
+.forside_afsnit p {
+  margin: 0;
+  padding: 0;
+}
+
 /*___________INPIRATION_______*/
 #inspiration_afsnit2 {
   /* padding: 40px;
@@ -1162,6 +1253,7 @@ h2::before {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
 /*___________PERSONLIG FORLØB_______*/
 .personlig_container {
   display: grid;

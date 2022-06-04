@@ -31,6 +31,93 @@ get_header();
 
     <body>
       <main>
+        <section id="forside_afsnit1">
+          <div class="splashbillede">
+            <div class="cwc_h1">
+                      <div class="entry-title">
+                      <h1> Charlotte Wahl Coaching</h1>
+                      </div>
+            </div>
+            <img src="" alt="">
+          </div>
+        </section>
+        <h1>Tid til Forandring?</h1>
+        <!-- andet afsnit -->
+        <section class="forside_afsnit">
+          <div class="forside_text">
+            <h2>Positiv forandring</h2>
+            <br>
+            <p>Drømmer du om forandring i dit liv? Vi kommer alle igennem kriser i større eller mindre omfang. Hvordan vi kommer igennem dem handler om hvilke briller vi vælger at se igennem. Det kan være svært at mærke efter og vide, hvordan man skal bære sig ad med at skabe en positiv forandring. Det handler først og fremmest om at tage skridtet, ligemeget om det er småt eller stort. Rejsen begynder ved dig og sammen, kan vi nå langt!</p>
+          <div class="knap_ramme">
+          <div id="kasse_knap">
+            <button>Læs mere</button>
+          </div>
+          </div>          
+          </div>
+            <div class="forside_billede">
+            <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/objekt_billeder/forsidecompress.jpg" alt="forside billede med bog">
+          </div>
+          </section>
+          <!-- tredje afsnit -->
+          <section class="forside_afsnit">
+          <div class="forside_billede">
+            <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/objekt_billeder/forsidecompress.jpg" alt="forside billede med bog">
+          </div>
+          <div class="forside_text">
+            <h2>Er vi et match?</h2>
+            <br>
+            <p>Mit navn er Charlotte Wahl og jeg er ledelsementor og stresscoach. Jeg bestræber mig på, at lytte aktivt på dig og hjælpe dig med at udforske de muligheder og potentieller, der præsenteres for dig i dit liv. Som coach, støtter jeg dig og hjælper med at motivere dig på din rejse om at empower dig selv i din selvudvikling.</p> 
+            <br>
+            <p>I min tilgang til dig ser jeg på det hele menneske. Det handler om at skabe balance imellem arbejde og privatlivet. Jeg ønsker at inspirere, og støtte dig fra dit ståsted i livet videre mod dine mål.</p>
+        <div class="knap_ramme">
+          <div id="kasse_knap">
+            <button>Læs mere</button>
+          </div>
+        </div>
+          </div>
+          </section>
+        <!-- ikoner forside -->
+        <section id="forside_ikoner">
+          <div class="alle_ikon_wrapper">
+            <!-- ikon 1 -->
+            <div class="ikon_container">
+            <div class="forside_ikon_wrapper">
+              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/ledelse.svg" alt="inspiration">
+            </div>
+          </div>
+          <!-- ikon 2 -->
+            <div class="ikon_container">
+            <div class="forside_ikon_wrapper">
+              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/pil.svg" alt="inspiration">
+            </div>
+          </div>
+          <!-- ikon 3 -->
+            <div class="ikon_container">
+            <div class="forside_ikon_wrapper">
+              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/hjerte.svg" alt="inspiration">
+            </div>
+          </div>
+          <!-- ikon slut -->
+          </div>
+        </section>
+        <!-- Kontakt mig afsnit -->
+        <section class="forside_afsnit">
+          <div class="forside_text">
+            <h2>Har du nogle spørgsmål?</h2>
+            <br>
+            <p>Er du i tvivl om noget kan du kontakte mig, og jeg svarer så hurtigt som muligt. Det er helt uforpligtende!</p>
+          <div class="knap_ramme">
+          <div id="kasse_knap">
+            <button>Kontakt</button>
+          </div>
+          </div>
+          </div>
+            <div class="forside_billede">
+            <img src="" alt="">
+          </div>
+          </section>
+
+
       </main>
 
       <!--F O O T E R _____ S T A R T-->
