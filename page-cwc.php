@@ -50,7 +50,7 @@ get_header();
             <p>Drømmer du om forandring i dit liv? Vi kommer alle igennem kriser i større eller mindre omfang. Hvordan vi kommer igennem dem handler om hvilke briller vi vælger at se igennem. Det kan være svært at mærke efter og vide, hvordan man skal bære sig ad med at skabe en positiv forandring. Det handler først og fremmest om at tage skridtet, ligemeget om det er småt eller stort. Rejsen begynder ved dig og sammen, kan vi nå langt!</p>
           <div class="knap_ramme">
           <div id="kasse_knap">
-            <button>Læs mere</button>
+            <button><a href="http://bellakezia.dk/kea2/eksamen/cwc/om-coaching/"></a>Læs mere</button>
           </div>
           </div>          
           </div>

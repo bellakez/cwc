@@ -49,6 +49,12 @@ get_header();
               <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/inspiration.svg" alt="inspiration">
             </div>
           </div>
+          <!--________Call to action - talebobbel________-->
+          <div class="talebobbel">
+            <div class="talebobbel_wrapper">
+              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/talebobbel.svg" alt="talebobbel">
+            </div>
+          </div>
         <section class="inspiration_wrapper">
        <!-- ________________________section 1 - INSTA SLIDE___________________________ -->
         <section id="inspiration_afsnit1">

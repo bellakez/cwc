@@ -171,7 +171,7 @@ h2::before {
     justify-content: center;
   }
   .ikon_wrapper {
-    width: 110px;
+    width: 90px;
   }
   /*_____________F_O_R_S_I_D_E_N Siden__________*/
   /*_____________F_O_R_S_I_D_E_N Siden__________*/
@@ -287,12 +287,17 @@ h2::before {
     padding-bottom: 10px;
     max-width: 100%;
   }
-
+  .talebobbel_wrapper img {
+    width: 130px;
+    position: absolute;
+    top: 48%;
+    left: 63%;
+  }
   /*_______________SLIDER___________________ */
   #slider {
     position: relative;
-    width: 40%;
-    height: 40vw;
+    width: 55%;
+    height: 55vw;
     margin: 150px auto;
     font-family: "Helvetica Neue", sans-serif;
     perspective: 1400px;
@@ -844,6 +849,12 @@ h2::before {
   }
   .center_h2 {
     text-align: center;
+  }
+  .talebobbel_wrapper img {
+    width: 130px;
+    position: absolute;
+    top: 67%;
+    left: 63%;
   }
 
   /*_______________SLIDER___________________ */
