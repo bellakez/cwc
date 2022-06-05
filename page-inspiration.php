@@ -50,12 +50,12 @@ get_header();
             </div>
           </div>
           <!--________Call to action - talebobbel________-->
-          <div class="talebobbel">
+          <!-- <div class="talebobbel">
             <div class="talebobbel_wrapper">
-              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/talebobbel.svg" alt="talebobbel">
+              <img src="PHP INDSÆTTES HER!!!!!/ikoner/talebobbel.svg" alt="talebobbel">
             </div>
           </div>
-        <section class="inspiration_wrapper">
+        <section class="inspiration_wrapper"> -->
        <!-- ________________________section 1 - INSTA SLIDE___________________________ -->
         <section id="inspiration_afsnit1">
         <h2>@charlottewahldk</h2>
@@ -94,24 +94,6 @@ get_header();
         </div>
         <div>
           <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote6.webp" alt="quotes"> 
-        </div>
-        <div>
-          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote12.webp" alt="quotes">
-        </div>
-        <div>
-          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote8.webp" alt="quotes">
-        </div>
-        <div>
-          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote9.webp" alt="quotes">
-        </div>
-        <div>
-         <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote10.webp" alt="quotes">
-        </div>
-        <div>
-          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote11.webp" alt="quotes">
-        </div>
-        <div>
-         <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/quotes/quote7.webp" alt="quotes">
         </div>
 
         </section>

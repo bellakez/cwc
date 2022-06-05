@@ -63,7 +63,7 @@ get_header();
         <h2>Jeg tilbyder</h2>
         <section id="omcoaching_afsnit3">
           <div class="omcoaching_billede">
-            <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/charlotte/om_mig_galleri_compress3.webp" alt="om coaching">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uIf1Qfo3Qek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="omcoaching_textbox">
             <p>Mit mål er at støtte dig i din rejse mod dit bedste liv. Jeg lytter aktivt til dine ord og giver dig nye perspektiver på muligheder, fra dit ståsted. Jeg ønsker at inspirere og støtte dig i rejsen mod at finde din balance.</p>

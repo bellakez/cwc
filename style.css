@@ -38,7 +38,15 @@ h1:not(.site-title)::before,
 h2::before {
   display: none;
 }
-
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
 /* #colophon .site-info {
   display: none;
 } */
@@ -308,6 +316,8 @@ h2::before {
   /*_________________I N S P I R A T I O N _______________*/
   #inspiration_afsnit1 h2 {
     text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
   .center_h2 {
     text-align: center;
@@ -881,6 +891,9 @@ h2::before {
     margin: 20px;
     padding: 70px;
   }
+  .ydelse_ramme .textbox {
+    padding-right: 20px;
+  }
   /*___________________________OM__MIG siden___________________________*/
   #ommig_afsnit1 {
     position: relative;
@@ -1371,6 +1384,11 @@ h2::before {
     width: 60px;
     height: 60px;
   }
+  /*OOOOOOOOPPPSS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! MENU LINK*/
+
+  .main-navigation .sub-menu > li > a ::before {
+    display: none;
+  }
 }
 /*_____________A U T O _ MIN/MAX____________*/
 /*______________FORSIDE________*/
@@ -1406,11 +1424,14 @@ h2::before {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
-
+#inspiration_afsnit1 h2 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 /*___________PERSONLIG FORLØB_______*/
 .personlig_container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 /*_______________________O M ___  C O A C H I N G__________________________*/
 #omcoaching_afsnit2 {
