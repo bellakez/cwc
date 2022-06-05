@@ -88,6 +88,15 @@ get_header();
 
 			</section>
       </section>
+      
+       <!-- MAIL-->	
+        <section class="mail">
+          <div class="mail_wrapper">
+            <div class="mail_container">
+               <a href="mailto:kontakt@charlottewahl.dk" ><img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/mail_kontakt.svg"  alt="mail"></a>
+            </div>
+          </div>
+        </section>
 </main>
       <!--F O O T E R _____ S T A R T-->
            <footer id="colophon" class="site-footer">
@@ -138,8 +147,7 @@ get_header();
         </div>
 
         </section>
-	</div>			
-
+	</div>		
       </footer>
 <!--F O O T E R _____ S L U T-->
       <script>

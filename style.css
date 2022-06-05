@@ -118,6 +118,16 @@ h2::before {
     position: relative;
     top: 1px;
   }
+  /*____________Mail STYLING_________*/
+  .mail_wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .mail_container {
+    width: 200px;
+  }
+
   /*____________GENEREL KNAP STYLING_________*/
   .knap_ramme {
     display: flex;
@@ -177,9 +187,9 @@ h2::before {
     width: 80px;
     height: 80px;
   }
-   .forside_ikon_wrapper {
-     padding: 20px;
-   }
+  .forside_ikon_wrapper {
+    padding: 20px;
+  }
   #ikon_hjerte img {
     width: 50px;
     height: 50px;
@@ -744,6 +754,15 @@ h2::before {
     border: 2px solid #c75a12;
     color: #ffffff;
   }
+  /*____________Mail STYLING_________*/
+  .mail_wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  .mail_container {
+    width: 230px;
+  }
 
   /*____________IKON STYLING_________*/
   .ikon_container {
@@ -765,9 +784,9 @@ h2::before {
   .forside_ikon_wrapper img {
     width: 200px;
   }
-     .forside_ikon_wrapper {
-     padding: 50px;
-   }
+  .forside_ikon_wrapper {
+    padding: 50px;
+  }
 
   /*___________________P_E_R_S_O_N_L_I_G Siden_____________*/
   article {

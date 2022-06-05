@@ -61,7 +61,7 @@ get_header();
           <!-- tredje afsnit -->
           <section class="forside_afsnit">
           <div class="forside_billede">
-            <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/objekt_billeder/forsidecompress.jpg" alt="forside billede med bog">
+            <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/charlotte/match_compress.jpg" alt="Charlotte Wahl billede">
           </div>
           <div class="forside_text">
             <h2>Er vi et match?</h2>
@@ -82,19 +82,19 @@ get_header();
             <!-- ikon 1 -->
             <div class="ikon_container">
             <div class="forside_ikon_wrapper">
-              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/ledelse.svg" alt="inspiration">
+              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/ledelse.svg" alt="ledelse ikon">
             </div>
           </div>
           <!-- ikon 2 -->
             <div class="ikon_container">
             <div class="forside_ikon_wrapper">
-              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/pil.svg" alt="inspiration">
+              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/pil.svg" alt="pil ikon">
             </div>
           </div>
           <!-- ikon 3 -->
             <div class="ikon_container">
             <div class="forside_ikon_wrapper">
-              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/hjerte.svg" alt="inspiration">
+              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/hjerte.svg" alt="hjerte ikon">
             </div>
           </div>
           <!-- ikon slut -->
@@ -113,7 +113,7 @@ get_header();
           </div>
           </div>
             <div class="forside_billede">
-            <img src="" alt="">
+             <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/objekt_billeder/kontakt_mig_compress.jpg" alt="kontakt billede">
           </div>
           </section>
 
