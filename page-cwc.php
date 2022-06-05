@@ -50,7 +50,7 @@ get_header();
             <p>Drømmer du om forandring i dit liv? Vi kommer alle igennem kriser i større eller mindre omfang. Hvordan vi kommer igennem dem handler om hvilke briller vi vælger at se igennem. Det kan være svært at mærke efter og vide, hvordan man skal bære sig ad med at skabe en positiv forandring. Det handler først og fremmest om at tage skridtet, ligemeget om det er småt eller stort. Rejsen begynder ved dig og sammen, kan vi nå langt!</p>
           <div class="knap_ramme">
           <div id="kasse_knap">
-            <button><a href="http://bellakezia.dk/kea2/eksamen/cwc/om-coaching/"></a>Læs mere</button>
+            <a href="http://bellakezia.dk/kea2/eksamen/cwc/om-coaching/"><button>Læs mere</button></a>
           </div>
           </div>          
           </div>
@@ -71,7 +71,7 @@ get_header();
             <p>I min tilgang til dig ser jeg på det hele menneske. Det handler om at skabe balance imellem arbejde og privatlivet. Jeg ønsker at inspirere, og støtte dig fra dit ståsted i livet videre mod dine mål.</p>
         <div class="knap_ramme">
           <div id="kasse_knap">
-            <button>Læs mere</button>
+            <a href="http://bellakezia.dk/kea2/eksamen/cwc/om-mig/"><button>Læs mere</button></a>
           </div>
         </div>
           </div>
@@ -108,7 +108,7 @@ get_header();
             <p>Er du i tvivl om noget kan du kontakte mig, og jeg svarer så hurtigt som muligt. Det er helt uforpligtende!</p>
           <div class="knap_ramme">
           <div id="kasse_knap">
-            <button>Kontakt</button>
+            <a href="http://bellakezia.dk/kea2/eksamen/cwc/kontakt/"><button>Kontakt</button></a>
           </div>
           </div>
           </div>

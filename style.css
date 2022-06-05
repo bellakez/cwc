@@ -721,6 +721,7 @@ h2::before {
   .knap_ramme {
     display: flex;
     justify-content: center;
+    padding: 20px;
   }
   .knap_ramme button {
     box-shadow: inset 0px 1px 0px 0px #ffffff;
@@ -860,8 +861,8 @@ h2::before {
   /*_______________SLIDER___________________ */
   #slider {
     position: relative;
-    width: 30%;
-    height: 30vw;
+    width: 40%;
+    height: 40vw;
     margin: 150px auto;
     font-family: "Helvetica Neue", sans-serif;
     perspective: 1400px;
