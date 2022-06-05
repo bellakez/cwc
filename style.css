@@ -70,7 +70,7 @@ h2::before {
     padding: 10px;
   }
   h3 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-family: "nunito", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -565,6 +565,23 @@ h2::before {
   /* .main-navigation .main-menu > li.menu-item-has-children {
     display: none;
   } */
+  /*______________________P_R_A_K_T_I_S_K _____ I_N_F_O__________________________*/
+  #praktisk_afsnit1 h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .praktisk_billede_container {
+    position: relative;
+    margin: 10px;
+  }
+  .pratisk_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 380px;
+  }
   /*_______________________Footer__________________________*/
   footer h2 {
     font-size: 0.8rem;
@@ -1183,6 +1200,24 @@ h2::before {
     padding: 40px;
     margin-top: 20px;
   }
+  /*______________________P_R_A_K_T_I_S_K _____ I_N_F_O__________________________*/
+  #praktisk_afsnit1 h1 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .praktisk_billede_container {
+    position: relative;
+    margin: 80px;
+  }
+  .pratisk_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+  }
+
   /*_______________________Footer__________________________*/
   /* footer #colophon .site-footer {
     background-color: rgb(237, 238, 233, 0.5);

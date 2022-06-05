@@ -36,11 +36,22 @@ get_header();
           <h1>Praktisk info</h1>
           </div>
           <!--________IKON________-->
-          <div class="ikon_container">
+          <!-- <div class="ikon_container">
             <div class="ikon_wrapper">
-              <img src="<?php echo get_stylesheet_directory_uri()?>/ikoner/info.svg" alt="information">
+              <img src="PHP_TAG_HER!!!!/ikoner/info.svg" alt="information">
+            </div>
+          </div> -->
+        </section>
+        <section id="paraktisk_afsnit2">
+          <div class="praktisk_billede_container">
+            <img src="<?php echo get_stylesheet_directory_uri()?>/logo/praktisk.svg" alt="information">
+            <div class="pratisk_text">
+              <h2>Købsbetingelser</h2>
+              <h3>Afbud</h3>
+              <p>Aftalen er bindende. Skulle du blive forhinderet bedes du melde afbud senest 24 timer før aftalte tidspunkt. Afbud bedes meldes skriftligt på mail: kontakt@charlotteWahl.dk</p>
             </div>
           </div>
+
         </section>
       </main>
 

@@ -62,7 +62,7 @@ get_header();
           <h3>CVR</h3>
           <p>43081322</p>
           <h3>E-mail</h3>
-          <p>43081322</p>
+          <p>kontakt@charlottewahl.dk</p>
         </div>
         </div>
       </div>
