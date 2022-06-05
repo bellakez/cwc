@@ -53,6 +53,7 @@ get_header();
           </div>
 
         </section>
+        
       </main>
 
       <!--F O O T E R _____ S T A R T-->

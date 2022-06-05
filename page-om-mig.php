@@ -83,6 +83,17 @@ get_header();
           </ul>
         </div>
       </section>
+    <!--____SLUT galleri____-->
+      <section id="ommig_galleri">
+        <div class="ommig_galleri_container">
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/charlotte/om_mig_gallri_compress1.webp" alt="coach">
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/charlotte/om_mig_galleri_compress2.webp" alt="coach">
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/charlotte/om_mig_galleri_compress3.webp" alt="coach">
+          <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/charlotte/om_mig_compress_4.webp" alt="coach">
+        </div>
+
+      </section>
+
       </main>
 
       <!--F O O T E R _____ S T A R T-->

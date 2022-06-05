@@ -240,6 +240,10 @@ h2::before {
   .ommig_ikon_box {
     width: 70px;
   }
+  #ommig_galleri {
+    display: flex;
+    justify-content: center;
+  }
 
   /*_____________K_O_N_T_A_K_T Siden__________*/
   #kontakt_afsnit1 {
@@ -898,6 +902,10 @@ h2::before {
   .ommig_ikon_box {
     width: 80px;
   }
+  #ommig_galleri {
+    display: flex;
+    justify-content: center;
+  }
 
   /*___________________________KONTAKT siden___________________________*/
   .kontakt_wrapper {
@@ -1384,6 +1392,12 @@ h2::before {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
+}
+.ommig_galleri_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 50px;
 }
 /*___________INPIRATION_______*/
 #inspiration_afsnit2 {
