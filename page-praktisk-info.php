@@ -42,7 +42,7 @@ get_header();
             </div>
           </div> -->
         </section>
-        <section id="paraktisk_afsnit2">
+        <section id="praktisk_afsnit2">
           <div class="praktisk_billede_container">
             <img src="<?php echo get_stylesheet_directory_uri()?>/logo/praktisk.svg" alt="information">
             <div class="pratisk_text">
