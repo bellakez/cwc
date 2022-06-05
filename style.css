@@ -85,6 +85,14 @@ h2::before {
     margin: 5px;
     padding-left: 10px;
   }
+  li {
+    font-size: 0.7rem;
+    font-family: "nunito", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 5px;
+    padding-left: 10px;
+  }
   /*____________KNAP STYLING_________*/
   #filtrering {
     display: flex;
@@ -210,6 +218,27 @@ h2::before {
     justify-content: center;
     margin: 20px;
     padding: 34px;
+  }
+  /*___________________________OM__MIG siden___________________________*/
+  #ommig_afsnit1 {
+    position: relative;
+  }
+  #ommig_afsnit1 .entry-title {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+  }
+  .ommig_ikon_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .ommig_container {
+    margin: 20px;
+  }
+  .ommig_ikon_box {
+    width: 70px;
   }
 
   /*_____________K_O_N_T_A_K_T Siden__________*/
@@ -695,6 +724,13 @@ h2::before {
     font-style: normal;
     padding-left: 20px;
   }
+  li {
+    font-size: 0.8rem;
+    font-family: nunito, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-left: 20px;
+  }
   /*____________FILTRERING KNAP STYLING_________*/
   #filtrering {
     display: flex;
@@ -836,6 +872,28 @@ h2::before {
     margin: 20px;
     padding: 70px;
   }
+  /*___________________________OM__MIG siden___________________________*/
+  #ommig_afsnit1 {
+    position: relative;
+  }
+  #ommig_afsnit1 .entry-title {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+  }
+  .ommig_ikon_wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .ommig_container {
+    margin: 40px;
+  }
+  .ommig_ikon_box {
+    width: 80px;
+  }
+
   /*___________________________KONTAKT siden___________________________*/
   .kontakt_wrapper {
     display: flex;
@@ -1311,7 +1369,12 @@ h2::before {
   margin: 0;
   padding: 0;
 }
-
+/*___________OM MIG_______*/
+#ommig_afsnit2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
 /*___________INPIRATION_______*/
 #inspiration_afsnit2 {
   /* padding: 40px;
