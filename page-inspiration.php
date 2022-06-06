@@ -32,7 +32,6 @@ get_header();
     <link rel="stylesheet" href="https://use.typekit.net/czz8qbt.css">
     <!--Nunito regular-->
     <link rel="stylesheet" href="https://use.typekit.net/czz8qbt.css">
-    <!--faveicon-->
     <!--link til stylesheet-->
 	<link rel="stylesheet" href="style.css">
 	<title>Kontakt</title>

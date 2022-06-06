@@ -21,9 +21,18 @@ get_header();
     <meta name="keywords" content="power, sundhed, coach, coaching, stresscoach, stress, ledelse, Greve, forandring, selvudviklingt" />
     <meta name="author" content="Nina og Isabella" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<!--fonte-->
+  	<!--fonte-->
+  	<!--rollerscript-->
+    <link rel="stylesheet" href="https://use.typekit.net/czz8qbt.css">
+    <!--beloved sans-->
+    <link rel="stylesheet" href="https://use.typekit.net/czz8qbt.css">
+    <!--beloved sans-->
+    <link rel="stylesheet" href="https://use.typekit.net/czz8qbt.css">
+    <!--Nunito light-->
+    <link rel="stylesheet" href="https://use.typekit.net/czz8qbt.css">
+    <!--Nunito regular-->
+    <link rel="stylesheet" href="https://use.typekit.net/czz8qbt.css">
 
-    <!--faveicon-->
     <!--link til stylesheet-->
 	<link rel="stylesheet" href="style.css">
 	<title>Charlotte Wahl coaching</title>
@@ -31,37 +40,16 @@ get_header();
 
     <body>
       <main>
-          <div class="cwc_h1">
+       <section id="splashbillede_forside">
+
+              <div class="cwc_h1">
               <div class="entry-title">
-              <h1> Charlotte Wahl Coaching</h1>
+              <h1> Charlotte Wahl</h1>
               </div>
+              <h2>Coaching</h2>
             </div>
-            <!--Hele skærmen-->
-            <div id="screen">
-              <!--baggrund-->
-              <div id="background">
-                <!--flyve elementer-->
-                <div id="flyve_elementer">
-                  <div id="flyve_text1">
-                  </div>
-                  <div id="flyve_text2">
-                  </div>
-                  <div id="flyve_text3">
-                  </div>
-                  <div id="flyve_text4">
-                  </div>
-                  <div id="flyve_text5">
-                  </div>
-                  <div id="flyve_text6">
-                  </div>
-                  <div id="flyve_text7">
-                  </div>
-                  <div id="flyve_text8">
-                  </div>
-                  <div id="flyve_text9">
-                  </div>                  
-                </div>
-              </div>
+              <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/splashbillede_charlotte.png" alt="splashbillede af coach">
+       </section>
 
             </div>
         <button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;">Til top</button>

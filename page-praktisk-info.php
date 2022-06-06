@@ -22,6 +22,16 @@ get_header();
     <meta name="author" content="Nina og Isabella" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<!--fonte-->
+  	<!--rollerscript-->
+    <link rel="stylesheet" href="https://use.typekit.net/czz8qbt.css">
+    <!--beloved sans-->
+    <link rel="stylesheet" href="https://use.typekit.net/czz8qbt.css">
+    <!--beloved sans-->
+    <link rel="stylesheet" href="https://use.typekit.net/czz8qbt.css">
+    <!--Nunito light-->
+    <link rel="stylesheet" href="https://use.typekit.net/czz8qbt.css">
+    <!--Nunito regular-->
+    <link rel="stylesheet" href="https://use.typekit.net/czz8qbt.css">
 
     <!--faveicon-->
     <!--link til stylesheet-->

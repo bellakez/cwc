@@ -83,7 +83,7 @@ html {
   /*___________________________FONTE - mobil___________________________*/
 
   h1 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-family: "beloved-sans", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -216,6 +216,19 @@ html {
   }
   /*_____________F_O_R_S_I_D_E_N Siden__________*/
   /*_____________F_O_R_S_I_D_E_N Siden__________*/
+  .cwc_h1  {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+  }
+
+  #splashbillede_forside {
+    position: relative;
+    text-align: center;
+  }
+
   .forside_afsnit {
     margin: 20px;
   }
@@ -882,6 +895,17 @@ html {
     width: 100px;
   }
   /*_____________F_O_R_S_I_D_E_N Siden__________*/
+  .cwc_h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+  }
+  #splashbillede_forside {
+    position: relative;
+    text-align: center;
+  }
   .forside_afsnit {
     margin: 90px;
   }
