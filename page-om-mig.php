@@ -67,7 +67,7 @@ get_header();
               </div>
           </div>
           <h2>Professionelt</h2>
-          <p>Jeg er uddannet og certificeret stress coach og ledelses coach hos Sofia Manning, en af de mest anerkendte coaching uddannelser i Danmark. Uddannelsen er godkendt af The International Coach Federation (ICF), som er det største internationale coachingforbund i verden. Derudover, har jeg været leder i Telia i mere end 20 år og har taget supplerende HR ledelsesfag. Grundet min professionelle erfaring, har jeg lært at kommunikere på forskellige niveauer og at det er de menneskelige egenskaber som leder, som gør at du som leder opnår følgeskab og dermed succes i dit lederskab.</p>
+          <p>Jeg er uddannet og certificeret stress og ledelses coach hos Sofia Manning, en af de mest anerkendte coaching uddannelser i Danmark. Uddannelsen er godkendt af The International Coach Federation (ICF), som er det største internationale coachingforbund i verden. Derudover, har jeg været leder i Telia i mere end 20 år og har taget supplerende HR ledelsesfag. Grundet min professionelle erfaring, har jeg lært at kommunikere på forskellige niveauer og at det er de menneskelige egenskaber som leder, som gør at du som leder opnår følgeskab og dermed succes i dit lederskab.</p>
         </div>
         <!--Kvaliteter-->
           <div class="ommig_container">
@@ -80,7 +80,7 @@ get_header();
           <ul>
             <li>Jeg har en positiv tilgang til alt i livet. Jeg tror at alle valg har konsekvenser og at der ved hvert valg, er et fravalg.</li>
             <li>Jeg tror, at alle gør altid det bedste de kan med de forudsætninger de har - vi gør det vi vurderer er bedst lige nu </li>
-            <li>Jeg har meget overskud og er omsorgsfuld. I min tilgang til coaching sætter jeg vægt på en åben og ærlig kommunikation. På den måde, når du og jeg længst.</li>
+            <li>Jeg har meget overskud og er omsorgsfuld. I min tilgang til coaching lægger jeg vægt på en åben og ærlig kommunikation. På den måde, når du og jeg længst.</li>
           </ul>
         </div>
       </section>

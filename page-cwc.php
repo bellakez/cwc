@@ -41,13 +41,13 @@ get_header();
     <body>
       <main>
        <section id="splashbillede_forside">
-
-              <div class="cwc_h1">
+              <div class="pil_ned_splashbillede">⌄</div>
+              <!-- <div class="cwc_h1">
               <div class="entry-title">
               <h1> Charlotte Wahl</h1>
               </div>
               <h2>Coaching</h2>
-            </div>
+            </div> -->
               <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/splashbillede_charlotte.png" alt="splashbillede af coach">
        </section>
 
@@ -78,7 +78,7 @@ get_header();
           <div class="forside_text">
             <h2>Er vi et match?</h2>
             <br>
-            <p>Mit navn er Charlotte Wahl og jeg er ledelsementor og stresscoach. Jeg bestræber mig på, at lytte aktivt på dig og hjælpe dig med at udforske de muligheder og potentieller, der præsenteres for dig i dit liv. Som coach, støtter jeg dig og hjælper med at motivere dig på din rejse om at empower dig selv i din selvudvikling.</p> 
+            <p>Mit navn er Charlotte Wahl og jeg er ledelsementor og stresscoach. Jeg bestræber mig på, at lytte aktivt til dig og hjælpe dig med at udforske muligheder og potentialer, der præsenteres for dig i dit liv. Som coach, støtter jeg dig og hjælper med at motivere dig på din rejse mod din selvudvikling.</p> 
             <br>
             <p>I min tilgang til dig ser jeg på det hele menneske. Det handler om at skabe balance imellem arbejde og privatlivet. Jeg ønsker at inspirere, og støtte dig fra dit ståsted i livet videre mod dine mål.</p>
         <div class="knap_ramme">

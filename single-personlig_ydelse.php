@@ -50,9 +50,14 @@ get_header();
 <!--_____________________________________________________________________________________-->
 
     <body>
-
+<section id="tilbage_knappen">
 		<button class="button_back">← Tilbage</button>
+  </section>
         <section id="personligt_afsnit1">
+
+        <div class="entry-title">
+          <h1>Om dette forløb</h1>
+        </div>
           <!--________IKON________-->
           <div class="ikon_container">
             <div class="ikon_wrapper">
@@ -60,6 +65,23 @@ get_header();
             </div>
           </div>
         </section>
+
+        <!--________Manuelt kodet________-->
+        <section class="forside_afsnit">
+          <div class="forside_billede">
+            <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/objekt_billeder/forsidecompress.jpg" alt="forside billede med bog">
+          </div>
+          <div class="forside_text">
+            <h2>Læs mere</h2>
+            <br>
+            <p>Drømmer du om forandring i dit liv? Vi kommer alle igennem kriser i større eller mindre omfang. Hvordan vi kommer igennem dem handler om hvilke briller vi vælger at se igennem. Det kan være svært at mærke efter og vide, hvordan man skal bære sig ad med at skabe en positiv forandring. Det handler først og fremmest om at tage skridtet, ligemeget om det er småt eller stort. Rejsen begynder ved dig og sammen, kan vi nå langt!</p>
+          <div class="knap_ramme">
+          <div id="kasse_knap">
+            <a href="http://bellakezia.dk/kea2/eksamen/cwc/om-coaching/"><button>Shop</button></a>
+          </div>
+          </div>          
+          </div>
+          </section>
 
 		      <!--_______FILTERERING - template_______-->
       <section id="single_afsnit2">
@@ -73,11 +95,11 @@ get_header();
 				    <img class="personlig_billede" src="" alt="coaching billede">
 				  </div>
         </div>
-        <div class="knap_ramme">
+        <!-- <div class="knap_ramme">
           <div id="kasse_knap">
             <button class="generel_knap">Shop</button>
           </div>
-        </div>
+        </div> -->
 			<!-- <h3 class="alle"></h3> det er til nulstil søgning -->
 			<section class="personlig_container">
 
