@@ -31,16 +31,39 @@ get_header();
 
     <body>
       <main>
-        <section id="forside_afsnit1">
-          <div class="splashbillede">
-            <div class="cwc_h1">
-                      <div class="entry-title">
-                      <h1> Charlotte Wahl Coaching</h1>
-                      </div>
+          <div class="cwc_h1">
+              <div class="entry-title">
+              <h1> Charlotte Wahl Coaching</h1>
+              </div>
             </div>
-            <img src="" alt="">
-          </div>
-        </section>
+            <!--Hele skærmen-->
+            <div id="screen">
+              <!--baggrund-->
+              <div id="background">
+                <!--flyve elementer-->
+                <div id="flyve_elementer">
+                  <div id="flyve_text1">
+                  </div>
+                  <div id="flyve_text2">
+                  </div>
+                  <div id="flyve_text3">
+                  </div>
+                  <div id="flyve_text4">
+                  </div>
+                  <div id="flyve_text5">
+                  </div>
+                  <div id="flyve_text6">
+                  </div>
+                  <div id="flyve_text7">
+                  </div>
+                  <div id="flyve_text8">
+                  </div>
+                  <div id="flyve_text9">
+                  </div>                  
+                </div>
+              </div>
+
+            </div>
         <button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;">Til top</button>
         <h1>Tid til Forandring?</h1>
         <!-- andet afsnit -->
