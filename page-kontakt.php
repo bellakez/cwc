@@ -17,7 +17,7 @@ get_header();
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--Selv-defineret meta beskrivelse-->
-    <meta name="description" content="Coach" />
+    <meta name="description" content="Ønsker du positiv forandring og/eller selvudvikling i dit liv? Coaching er et redskab der støtter dig med at finde din power og nå dine mål." />
     <meta name="keywords" content="power, sundhed, coach, coaching, stresscoach, stress, ledelse, Greve, forandring, selvudvikling" />
     <meta name="author" content="Nina og Isabella" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

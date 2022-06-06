@@ -17,7 +17,7 @@ get_header();
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!--Selv-defineret meta beskrivelse-->
-    <meta name="description" content="Coach" />
+    <meta name="description" content="Ønsker du positiv forandring og/eller selvudvikling i dit liv? Coaching er et redskab der støtter dig med at finde din power og nå dine mål." />
     <meta name="keywords" content="power, sundhed, coach, coaching, stresscoach, stress, ledelse, Greve, forandring, selvudvikling" />
     <meta name="author" content="Nina og Isabella" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -45,6 +45,7 @@ get_header();
         <div class="entry-title">
           <h1>Om mig</h1>
         </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;">Til top</button>
         <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/charlotte/om_mig_splash_compress.webp" alt="om coaching">
       </section>
       <!--Personlig-->
@@ -150,7 +151,27 @@ get_header();
       </footer>
  <!--F O O T E R _____ S L U T-->
       <script>
+          //Get the button:
+mybutton = document.getElementById("myBtn");
 
+//Når brugeren scroller 20px ned fra top af dokumentet, viser knappen (button) sig
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+//Når brugeren klikker på knappen (button), scroller den til toppen af dokumentet
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
       </script>
     </body>
 </html>
