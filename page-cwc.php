@@ -41,6 +41,7 @@ get_header();
             <img src="" alt="">
           </div>
         </section>
+        <button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;">Til top</button>
         <h1>Tid til Forandring?</h1>
         <!-- andet afsnit -->
         <section class="forside_afsnit">
@@ -175,25 +176,29 @@ get_header();
 <!--F O O T E R _____ S L U T-->
       <script>
         "use strict";
-        let afsnit1;
+        // BACK TO TOP
 
-        //nøgle
-        const dbUrl = "https://bellakezia.dk/kea2/tema9/projekter/wp-json/wp/v2/cwc/";
+//Get the button:
+mybutton = document.getElementById("myBtn");
 
+//Når brugeren scroller 20px ned fra top af dokumentet, viser knappen (button) sig
+window.onscroll = function () {
+  scrollFunction();
+};
 
-        async function getJson() {
-        const data = await fetch(dbUrl);
-        console.log(afsnit1);
-        visAfsnit1();
-        }
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
 
-        function visAfsnit1() {
-	      console.log(afsnit1);
-	      let temp = document.querySelector("template");
-	      let container = document.querySelector(".afsnit1_container")
-	      container.innerHTML = "";
-        klon.querySelector(".splashvideo").src = afsnit1.video.guid;
-        }
+//Når brugeren klikker på knappen (button), scroller den til toppen af dokumentet
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 
 
       </script>

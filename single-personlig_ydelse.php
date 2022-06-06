@@ -52,9 +52,7 @@ get_header();
         </section>
 
 		      <!--_______FILTERERING - template_______-->
-      <section id="personligt_afsnit2">
-      <template>
-				<article>
+      <section id="single_afsnit2">
         <div class="ydelse_ramme">
 				  <div class="textbox">
 				    <h2 class="overskrift_h2"></h2>
@@ -70,9 +68,7 @@ get_header();
             <button class="generel_knap">Shop</button>
           </div>
         </div>
-			</article>
 			<!-- <h3 class="alle"></h3> det er til nulstil søgning -->
-			</template>
 			<section class="personlig_container">
 
 			</section>
@@ -144,7 +140,10 @@ async function getJson() {
 }
 
 function visLink() {
-	document.querySelector(".personlig_billede").src = personlig_ydelse.personlig_billede.guid;
+  document.querySelector(".overskrift_h2").innerHTML = link.overskrift_h2;
+  document.querySelector(".lang_beskrivelse").innerHTML = link.lang_beskrivelse;
+  document.querySelector(".overskrift_h3").innerHTML = link.overskrift_h3;
+	document.querySelector(".personlig_billede").src = link.personlig_billede.guid;
 }
 
   getJson();
