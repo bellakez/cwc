@@ -68,16 +68,12 @@ get_header();
 
         <!--________Manuelt kodet________-->
         <section class="forside_afsnit">
-          <div class="forside_billede">
-            <img src="<?php echo get_stylesheet_directory_uri()?>/billeder/objekt_billeder/forsidecompress.jpg" alt="forside billede med bog">
-          </div>
-          <div class="forside_text">
-            <h2>Læs mere</h2>
+          <div class="single_text">
+            <h2>Kontakt mig for en afklarende samtale</h2>
             <br>
-            <p>Drømmer du om forandring i dit liv? Vi kommer alle igennem kriser i større eller mindre omfang. Hvordan vi kommer igennem dem handler om hvilke briller vi vælger at se igennem. Det kan være svært at mærke efter og vide, hvordan man skal bære sig ad med at skabe en positiv forandring. Det handler først og fremmest om at tage skridtet, ligemeget om det er småt eller stort. Rejsen begynder ved dig og sammen, kan vi nå langt!</p>
           <div class="knap_ramme">
           <div id="kasse_knap">
-            <a href="http://bellakezia.dk/kea2/eksamen/cwc/om-coaching/"><button>Shop</button></a>
+             <a href="mailto:kontakt@charlottewahl.dk" ><button>Kontakt</button></a>
           </div>
           </div>          
           </div>
@@ -90,9 +86,6 @@ get_header();
 				    <h2 class="overskrift_h2"></h2>
 				    <p class="lang_beskrivelse"></p>
             		<h3 class="overskrift_h3"></h3>
-				  </div>
-				  <div class="billedebox">
-				    <img class="personlig_billede" src="" alt="coaching billede">
 				  </div>
         </div>
         <!-- <div class="knap_ramme">

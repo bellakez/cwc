@@ -43,6 +43,9 @@ h2::before {
   height: auto;
   aspect-ratio: 16/9;
 }
+.single_text h2 {
+  text-align: center;
+}
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 90px;
@@ -766,7 +769,7 @@ html {
 
 /*___________________________W E B___________________________*/
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px)  {
   /*___________________________FONTE - mobil___________________________*/
   h1 {
     font-size: 2rem;
